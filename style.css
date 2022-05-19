@@ -5,7 +5,12 @@
 
 .grid-box {
     width: 20px;
-    height: 25px;
-    margin: 1px;
-    border: 1px solid black;
+    height: 20px;
+    margin: 0.5px;
+    border: 1px solid #252A34;
+}
+
+.grid-box:hover {
+    background-color: #FF2E63;
+    border-color: #291d1e;
 }
