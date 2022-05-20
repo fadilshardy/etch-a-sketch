@@ -5,10 +5,28 @@
     margin: 0px;
 }
 
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #7D5a50;
+    color: #FCDEC0;
+    font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+    font-size: 18px;
+  }
+  
+
+  #header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 1rem;
+
+  }
+
 
 #sketch-container {
     display: grid;
-    grid-gap: 0.1em;
     grid-template-columns: repeat(var(--grid-cols), 1fr);
     grid-template-rows: repeat(var(--grid-rows), 1fr);
 }
@@ -28,5 +46,16 @@
     max-width: 80vh;
     border: 5px solid #252A34;
     padding: 0.5em;
+    background-color: white;
+}
+
+#new-sketch {
+    padding: 8px 16px;
+    color: white;
+    background-color: #413232;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+    display: inline;
 }
 
